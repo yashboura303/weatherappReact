@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+@media (max-width: 767.98px) { 
+  #increaseWidth {
+    background-color: rgb(120, 180, 180);
+      width: 100%;
+  }
+}
