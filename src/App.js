@@ -15,7 +15,7 @@ class App extends React.Component {
   }
 
   updateWeatherDetails = (area) =>{
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${area}&units=metric&APPID=b66ecf3c7e717c4eb45abd13e53ba0ac`,{mode:'cors'})
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${area}&units=metric&APPID=b66ecf3c7e717c4eb45abd13e53ba0ac`,{mode:'cors'})
     .then((response)=>{
       if (response.ok){
         console.log(response)
